@@ -1,0 +1,71 @@
+* {
+  font-family: 'PT Sans', sans-serif;
+}
+
+body {
+  padding: 70px 60px;
+  font-size: 15px;
+}
+
+#main-container {
+  max-width: 650px;
+  min-width: 525px;
+  margin: 0 auto;
+}
+
+.ng-cloak {
+  display: none;
+}
+
+h1 {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: normal;
+  font-size: 50px;
+  margin: 0;
+  height: 55px;
+}
+
+h2 {
+  color: #424242;
+  font-size: 1.5em;
+  margin-bottom: 0px;
+}
+
+h3 {
+  color: #666666;
+  font-size: 1.1em;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+a {
+  color: #424242;
+  font-weight: bold;
+}
+
+time {
+  float: right;
+}
+
+ul {
+  margin-top: 5px;
+}
+
+#skills-and-achievements h3 {
+  display: inline;
+}
+
+.show-more {
+  font-size: .8em;
+  display: block;
+  margin-bottom: 5px;
+}
+
+@media print {
+  .show-more {
+    display: none;
+  }
+  body {
+    padding: 0;
+  }
+}
